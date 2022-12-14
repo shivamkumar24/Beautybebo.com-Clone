@@ -1,0 +1,554 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Shivam Kumar",
+      "phone": "9355228666",
+      "email": "shivamkumg@gmail.com",
+      "password": "12345"
+    }
+  ],
+
+  "home": [
+    {
+      "id": 1,
+      "title": "Aroma Magic Activated Bamboo Charcoal Face Wash",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001565-1.jpg",
+      "review_count": "6",
+      "review_star": "4",
+      "regular_price": "",
+      "price": "210",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "Clinic Plus Strong & Long Health Shampoo",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/_/1_210_4.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "525",
+      "price": "473",
+      "off": "10%"
+    },
+    {
+      "id": 3,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 4,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "img": "",
+      "review_count": "",
+      "review_star": "",
+      "regular_price": "",
+      "price": "",
+      "off": ""
+    }
+  ]
+}
