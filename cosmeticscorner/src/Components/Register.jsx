@@ -1,10 +1,12 @@
 import React from "react";
 import { Input, Button, FormControl, FormLabel } from "@chakra-ui/react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Register = () => {
   return (
     <div>
+      {/* ---------- Navbar --------- */}
       <Navbar />
       <p
         style={{
@@ -16,10 +18,13 @@ const Register = () => {
       >
         CREATE NEW CUSTOMER ACCOUNT
       </p>
+
+      {/* ------------ Form --------- */}
       <FormControl
         width="40%"
         margin="auto"
-        marginTop="2%"
+        marginTop="3%"
+        marginBottom="3%"
         border="1px solid black"
         padding="25px"
         backgroundColor={"gray.100"}
@@ -45,6 +50,9 @@ const Register = () => {
           Register
         </Button>
       </FormControl>
+
+      {/* ----------- Footer ---------- */}
+      <Footer />
     </div>
   );
 };

@@ -16,9 +16,9 @@
       "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001565-1.jpg",
       "review_count": "6",
       "review_star": "4",
-      "regular_price": "",
-      "price": "210",
-      "off": ""
+      "regular_price": "210.00",
+      "price": "210.00",
+      "off": "0%"
     },
     {
       "id": 2,
@@ -26,22 +26,668 @@
       "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/_/1_210_4.jpg",
       "review_count": "3",
       "review_star": "5",
-      "regular_price": "525",
-      "price": "473",
+      "regular_price": "525.00",
+      "price": "473.00",
       "off": "10%"
     },
     {
       "id": 3,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
+      "title": "Gillette Venus Breeze Razor With Avocado Oil",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/a/a/aaa_3.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "325.00",
+      "price": "286.00",
+      "off": "12%"
     },
     {
       "id": 4,
+      "title": "Gillette Venus Razor With Aloe Extract For Women",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/_/1_209_6.jpg",
+      "review_count": "9",
+      "review_star": "5",
+      "regular_price": "249.00",
+      "price": "200.00",
+      "off": "20%"
+    },
+    {
+      "id": 5,
+      "title": "Head & Shoulders 2 In 1 Active Protect Anti Dandruff Shampoo + Conditioner",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/2/_/2_in_1_active_protect_anti_dandruff_shampoo_conditioner-2.png",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "350.00",
+      "price": "263.00",
+      "off": "25%"
+    },
+    {
+      "id": 6,
+      "title": "Head & Shoulders Anti-Dandruff Anti Hair Fall Shampoo - 340ml",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001368-2.jpg",
+      "review_count": "1",
+      "review_star": "5",
+      "regular_price": "285.00",
+      "price": "200.00",
+      "off": "30%"
+    },
+    {
+      "id": 7,
+      "title": "Head & Shoulders Cool Menthol 2-In-1 Anti-Dandruff Shampoo + Conditioner",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001370-2.jpg",
+      "review_count": "2",
+      "review_star": "5",
+      "regular_price": "350.00",
+      "price": "280.00",
+      "off": "20%"
+    },
+    {
+      "id": 8,
+      "title": "Head & Shoulders Smooth & Silky Anti Dandruff Shampoo",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001555-3.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "550.00",
+      "price": "413.00",
+      "off": "25%"
+    },
+    {
+      "id": 9,
+      "title": "Himalaya Herbals Anti-Wrinkle Cream",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/g/g/ggggghh.jpg",
+      "review_count": "2",
+      "review_star": "5",
+      "regular_price": "250.00",
+      "price": "200.00",
+      "off": "20%"
+    },
+    {
+      "id": 10,
+      "title": "Himalaya Herbals Himalaya Men Pimple Clear Neem Face Wash",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001776-1.jpg",
+      "review_count": "5",
+      "review_star": "5",
+      "regular_price": "160.00",
+      "price": "128.00",
+      "off": "20%"
+    },
+    {
+      "id": 11,
+      "title": "Himalaya Herbals Purifying Neem Foaming Face Wash - Pack Of 2",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/_/1/.111.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "470.00",
+      "price": "423.00",
+      "off": "10%"
+    },
+    {
+      "id": 12,
+      "title": "Joy Even Tone Bright Radiance Skin Brightening Body Lotion - Get Free NIVEA Deodorant Roll On - Pearl & Beauty",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_4.jpg",
+      "review_count": "5",
+      "review_star": "5",
+      "regular_price": "494.00",
+      "price": "295.00",
+      "off": "40%"
+    },
+    {
+      "id": 13,
+      "title": "Kamasutra Spark Deodorant Spray For Men (Buy 1 Get 1 Free) - 260ml Each",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-1_5_1.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "294.00",
+      "price": "294.00",
+      "off": "0%"
+    },
+    {
+      "id": 14,
+      "title": "L'Oreal Paris Total Repair 5 Shampoo (640ml+64ml)",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/9/8901526102662_2bbb.jpg",
+      "review_count": "2",
+      "review_star": "5",
+      "regular_price": "450.00",
+      "price": "338.00",
+      "off": "25%"
+    },
+    {
+      "id": 15,
+      "title": "LOreal Paris Extraordinary Clay Purifying & Hydrating Shampoo (10% Extra)",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/l/o/loreal_paris_extraordinary_clay_purifying_hydrating_shampoo_10_extra_2.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "450.00",
+      "price": "225.00",
+      "off": "50%"
+    },
+    {
+      "id": 16,
+      "title": "Maybelline New York Hyper Curl Mascara",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/w/a/washable_very_black-1.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "335.00",
+      "price": "285.00",
+      "off": "15%"
+    },
+    {
+      "id": 17,
+      "title": "Neutrogena Hydro Boost Water Gel",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/4/8/4891080614470_2__1.jpg",
+      "review_count": "1",
+      "review_star": "5",
+      "regular_price": "950.00",
+      "price": "760.00",
+      "off": "20%"
+    },
+    {
+      "id": 18,
+      "title": "NIVEA Body Lotion Nourishing Body Milk - For Very Dry Skin",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/l/o/lotion_nourishing_body_milk4001.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "425.00",
+      "price": "383.00",
+      "off": "10%"
+    },
+    {
+      "id": 19,
+      "title": "Olay Age Protect Anti-Ageing Cream",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/i/m/imgpsh_fullsize_anim_4__1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "199.00",
+      "price": "159.00",
+      "off": "20%"
+    },
+    {
+      "id": 20,
+      "title": "Pantene Advanced Hair Fall Solution Hair Fall Control Shampoo",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/a/pantene_advanced_hair_fall_solution_hair_fall_control_shampoo-1.jpg",
+      "review_count": "1",
+      "review_star": "5",
+      "regular_price": "240.00",
+      "price": "228.00",
+      "off": "5%"
+    },
+    {
+      "id": 21,
+      "title": "Pantene Advanced Hair Fall Solution Hair Fall Control Shampoo 650ml",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/h/n/hnejhfeuh.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "500.00",
+      "price": "400.00",
+      "off": "20%"
+    },
+    {
+      "id": 22,
+      "title": "Ponds Super Light Gel Oil Free Moisturiser With Hyaluronic Acid + Vitamin E - Pack Of 2",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-94.jpg",
+      "review_count": "1",
+      "review_star": "5",
+      "regular_price": "598.00",
+      "price": "418.00",
+      "off": "30%"
+    },
+    {
+      "id": 23,
+      "title": "Sunsilk Lusciously Thick & Long Shampoo - Pack Of 2",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-113.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "396.00",
+      "price": "238.00",
+      "off": "40%"
+    },
+    {
+      "id": 24,
+      "title": "Miss Claire Eyeshadow Kit 3716-11-1",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/6/8/68caf778903487000186_1.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "396.00",
+      "price": "396.00",
+      "off": "0%"
+    },
+    {
+      "id": 25,
+      "title": "Miss Claire M22 - Contour/Blush Brush",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/4/84de0238903487002357_1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "475.00",
+      "price": "428.00",
+      "off": "10%"
+    },
+    {
+      "id": 26,
+      "title": "Lotus Professional Retemin Plant Retinol & Vitamin C Brightening",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/b/3b741delotaa00000044_nv1.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "695.00",
+      "price": "647.00",
+      "off": "7%"
+    },
+    {
+      "id": 27,
+      "title": "Green Apple Fresh Purifying shampoo",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/f/9f1b98c8904352000683_1.jpg",
+      "review_count": "2",
+      "review_star": "5",
+      "regular_price": "299.00",
+      "price": "299.00",
+      "off": "0%"
+    },
+    {
+      "id": 28,
+      "title": "Blue Heaven Candy Matte Lip Color",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/u/n/untitled-140.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "180.00",
+      "price": "162.00",
+      "off": "10%"
+    }
+  ],
+
+  "skin": [
+    {
+      "id": 29,
+      "title": "Lotus Professional Retemin Plant Retinol & Vitamin C Brightening Boost Night Cream",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/b/3b741delotaa00000044_nv1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "695.00",
+      "price": "646.00",
+      "off": "7%"
+    },
+    {
+      "id": 30,
+      "title": "O3+ Derma Cult Vitamin-C Tonic Solution",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/7/c/7c1a8e9o3xxx00000057_new1.jpg",
+      "review_count": "2",
+      "review_star": "5",
+      "regular_price": "599.00",
+      "price": "533.00",
+      "off": "11%"
+    },
+    {
+      "id": 31,
+      "title": "O3+ Brightening AM & PM Combo",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/4/3/4382eaao3xxx00000050_1.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "1790.00",
+      "price": "1701.00",
+      "off": "5%"
+    },
+    {
+      "id": 32,
+      "title": "O3+ Derma Cult Triple Acid Oil-Free Brightening Moisturizer For All Skin",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/3/8383271o3-0954_7_.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "650.00",
+      "price": "592.00",
+      "off": "9%"
+    },
+    {
+      "id": 33,
+      "title": "O3+ Derma Cult Salicylic + Adaptogen Mask For Acne Marks & Tan Removal",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/0/7/0740271o3-0950_7_.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "599.00",
+      "price": "539.00",
+      "off": "10%"
+    },
+    {
+      "id": 34,
+      "title": "O3+ Derma Cult Resurfacing Energy Facial Peel For Instant Brightening +",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/4/e/4e33271o3-0951_7_.jpg",
+      "review_count": "9",
+      "review_star": "5",
+      "regular_price": "799.00",
+      "price": "739.00",
+      "off": "8%"
+    },
+    {
+      "id": 35,
+      "title": "O3+ Caffeinated D-Tan Facial For Intensive Whitening",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/e/be9d8a3o3-0915_1.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "450.00",
+      "price": "410.00",
+      "off": "10%"
+    },
+    {
+      "id": 36,
+      "title": "O3+ Ultra Healing Brightening Body Lotion Moisturiser With Hyaluronic Acid",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/4/9454362o3-0949_5.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "499.00",
+      "price": "449.00",
+      "off": "10%"
+    },
+    {
+      "id": 37,
+      "title": "O3+ Sara Ayurveda Kumkumadi Brightness Facial Kit For Bridal Glow",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/6/c6f2409o3xxx00000114_0.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "2280.00",
+      "price": "2166.00",
+      "off": "5%"
+    },
+    {
+      "id": 38,
+      "title": "O3+ Anti Ageing Single Dose Kit",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/0/4/04222d8o3xxx00000072_5.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "510.00",
+      "price": "464.00",
+      "off": "9%"
+    },
+    {
+      "id": 39,
+      "title": "Miss Claire Prestige Anti-Dust Daily Massage Cleansing Cream",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/9/c9222298903487037205_1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "750.00",
+      "price": "675.00",
+      "off": "10%"
+    },
+    {
+      "id": 40,
+      "title": "Faces Canada Hydro Cleanser",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/e/f/ef93c248903380157734__1_.jpg",
+      "review_count": "3",
+      "review_star": "5",
+      "regular_price": "479.00",
+      "price": "479.00",
+      "off": "0%"
+    },
+    {
+      "id": 41,
+      "title": "O3+ Blueberry Dtan Creme Mask For De Tan & Moisturising Glow",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/1/51e_koru3bs._sl1500_.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "1550.00",
+      "price": "1442.00",
+      "off": "7%"
+    },
+    {
+      "id": 42,
+      "title": "Miss Claire Pre. Anti Pollution Sun Cream - SPF 50",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/9/f93d9738903487037762_1.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "675.00",
+      "price": "608.00",
+      "off": "10%"
+    },
+    {
+      "id": 43,
+      "title": "Miss Claire Prestige Anti Dust Daily Pure Cleansing Foam",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/a/1a89f778903487036925_1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "725.00",
+      "price": "653.00",
+      "off": "10%"
+    },
+    {
+      "id": 44,
+      "title": "Faces Canada Urban Balance Daily Cleansing Mousse",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/a/a/aa036218903380001839_new_0.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "499.00",
+      "price": "449.00",
+      "off": "10%"
+    },
+    {
+      "id": 45,
+      "title": "Faces Canada Urban Balance Pollution Defense Day Cream SPF 25+UV Filters",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/8/d8b46218903380001440_new_0.jpg",
+      "review_count": "8",
+      "review_star": "5",
+      "regular_price": "1199.00",
+      "price": "1139.00",
+      "off": "5%"
+    },
+    {
+      "id": 46,
+      "title": "Faces Canada Pink Aloe Vera Pore Tightening Toner",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/f/9f64401faces00000386_2.jpg",
+      "review_count": "2",
+      "review_star": "5",
+      "regular_price": "399.00",
+      "price": "399.00",
+      "off": "0%"
+    },
+    {
+      "id": 47,
+      "title": "Faces Canada Urban Balance Skin Comfort Serum",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/8/0/8081c248903380001464_1.jpg",
+      "review_count": "8",
+      "review_star": "5",
+      "regular_price": "1199.00",
+      "price": "1129.00",
+      "off": "6%"
+    },
+    {
+      "id": 48,
+      "title": "Faces Canada Urban Glow Clarifying Creamy Foaming Cleanser",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/2/4/24706218903380002539_new_0.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "449.00",
+      "price": "395.00",
+      "off": "12%"
+    },
+    {
+      "id": 49,
+      "title": "Faces Canada Urban Glow Dark Spots Reducing Night Cream",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/f/ff826218903380002522_new_0.jpg",
+      "review_count": "11",
+      "review_star": "5",
+      "regular_price": "999.00",
+      "price": "899.00",
+      "off": "10%"
+    },
+    {
+      "id": 50,
+      "title": "Faces Canada Tan Be Gone De Tan Skin Brightening Clay Mask",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/2/a/2ae2c248903380003321a_1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "499.00",
+      "price": "449.00",
+      "off": "10%"
+    },
+    {
+      "id": 51,
+      "title": "Faces Canada Urban Balance Daily Scrub Cleanser",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/5/c543c248903380001488a.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "549.00",
+      "price": "505.00",
+      "off": "8%"
+    },
+    {
+      "id": 52,
+      "title": "Bioderma Photoderm Spot Age SPF 50+ Reduces Spots And Wrinkles Antioxidant",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/e/3ec9ca0biode00000020_1.jpg",
+      "review_count": "9",
+      "review_star": "5",
+      "regular_price": "1635.00",
+      "price": "1553.00",
+      "off": "5%"
+    },
+    {
+      "id": 53,
+      "title": "Bioderma Atoderm Intensive Gel Creme For Anti-Itching, Lipid-Replenishing",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/6/1/61b0ca0biode00000046_1.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "899.00",
+      "price": "819.00",
+      "off": "9%"
+    },
+    {
+      "id": 54,
+      "title": "Bioderma Sensibio Tonique Soothing Moisturising Lotion Face & Eyes",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/e/7/e78872cbiode00000013__1_.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "449.00",
+      "price": "449.00",
+      "off": "0%"
+    },
+    {
+      "id": 55,
+      "title": "Bioderma Cicabio Arnica+ SOS Quickly Repairs And Soothes Skin Damage",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/a/9aa643ebiode00000001-01.jpg",
+      "review_count": "8",
+      "review_star": "5",
+      "regular_price": "999.00",
+      "price": "909.00",
+      "off": "9%"
+    },
+    {
+      "id": 55,
+      "title": "ioderma Sensibio Defensive Rich Active Soothing Cream",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/7/a/7a88ca0biode00000063_1.jpg",
+      "review_count": "8",
+      "review_star": "5",
+      "regular_price": "825.00",
+      "price": "743.00",
+      "off": "10%"
+    },
+    {
+      "id": 56,
+      "title": "Bioderma Photoderm Max Aquafluide SPF 50+ High Protection, Water",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/d/5d9fdf53401561197715.jpg",
+      "review_count": "9",
+      "review_star": "5",
+      "regular_price": "1550.00",
+      "price": "1473.00",
+      "off": "5%"
+    },
+    {
+      "id": 57,
+      "title": "Bioderma Sebium Night Peel Smoothing Concentrate Oily/Combination Skin With",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/f/e/fe0a43ebiode00000008-01.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "1965.00",
+      "price": "1867.00",
+      "off": "5%"
+    },
+    {
+      "id": 58,
+      "title": "Bioderma Pigmentbio Sensitive Areas External Intimate And Friction Areas",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/a/ba8143ebiode00000012-01.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "1475.00",
+      "price": "1397.00",
+      "off": "5%"
+    },
+    {
+      "id": 59,
+      "title": "Bioderma Pigmentbio C- Concentrate Brightening Pigmentation Cream",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/7/8/7828ca0biode00000033_1.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "2799.00",
+      "price": "2659.00",
+      "off": "5%"
+    },
+    {
+      "id": 60,
+      "title": "Bioderma Sensibio Gel Moussant Soothing Foaming Soap Free Gel",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/7/c7bfca0biode00000011_1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "449.00",
+      "price": "404.00",
+      "off": "10%"
+    },
+    {
+      "id": 61,
+      "title": "Ultra-Nourishing Face & Body Daily Care,",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/e/f/effeca0biode00000034_1.jpg",
+      "review_count": "8",
+      "review_star": "5",
+      "regular_price": "1199.00",
+      "price": "1103.00",
+      "off": "8%"
+    },
+    {
+      "id": 62,
+      "title": "Bioderma Atoderm SOS Spray Anti-Icthing Reflex For Immediate Relief",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/d/3d830e128140_1.jpg",
+      "review_count": "4",
+      "review_star": "5",
+      "regular_price": "1399.00",
+      "price": "1301.00",
+      "off": "7%"
+    },
+    {
+      "id": 63,
+      "title": "Bioderma Sebium Gel Moussant Actif Intense Purifying Cleansing Foaming Gel",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/9/d9a841228667_1.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "1799.00",
+      "price": "1709.00",
+      "off": "5%"
+    },
+    {
+      "id": 64,
+      "title": "Bioderma Photoderm MAX Creme SPF 50+ High Protection",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/9/99140can_3401573670572_1.jpg",
+      "review_count": "7",
+      "review_star": "5",
+      "regular_price": "999.00",
+      "price": "919.00",
+      "off": "8%"
+    },
+    {
+      "id": 65,
+      "title": "Bioderma Pigmentbio Foaming Cream Brightening Exfoliating Cleanser For Dark",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/e/f/ef4c43ebiode00000004-01_1_.jpg",
+      "review_count": "8",
+      "review_star": "5",
+      "regular_price": "799.00",
+      "price": "719.00",
+      "off": "10%"
+    },
+    {
+      "id": 66,
+      "title": "Bioderma Sebium Gel Moussant Purifying Cleansing Foaming Gel",
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/2/1/210743e3401381716523-01.jpg",
+      "review_count": "6",
+      "review_star": "5",
+      "regular_price": "395.00",
+      "price": "356.00",
+      "off": "10%"
+    }
+  ],
+
+  "hair": [
+    {
+      "id": 67,
       "title": "",
       "img": "",
       "review_count": "",
@@ -51,7 +697,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 68,
       "title": "",
       "img": "",
       "review_count": "",
@@ -61,7 +707,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 69,
       "title": "",
       "img": "",
       "review_count": "",
@@ -71,7 +717,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 70,
       "title": "",
       "img": "",
       "review_count": "",
@@ -81,7 +727,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 71,
       "title": "",
       "img": "",
       "review_count": "",
@@ -91,7 +737,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 72,
       "title": "",
       "img": "",
       "review_count": "",
@@ -101,7 +747,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 73,
       "title": "",
       "img": "",
       "review_count": "",
@@ -111,7 +757,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 74,
       "title": "",
       "img": "",
       "review_count": "",
@@ -121,7 +767,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 75,
       "title": "",
       "img": "",
       "review_count": "",
@@ -131,7 +777,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 76,
       "title": "",
       "img": "",
       "review_count": "",
@@ -141,7 +787,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 77,
       "title": "",
       "img": "",
       "review_count": "",
@@ -151,7 +797,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 78,
       "title": "",
       "img": "",
       "review_count": "",
@@ -161,7 +807,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 79,
       "title": "",
       "img": "",
       "review_count": "",
@@ -171,7 +817,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 80,
       "title": "",
       "img": "",
       "review_count": "",
@@ -181,7 +827,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 81,
       "title": "",
       "img": "",
       "review_count": "",
@@ -191,7 +837,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 82,
       "title": "",
       "img": "",
       "review_count": "",
@@ -201,7 +847,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 83,
       "title": "",
       "img": "",
       "review_count": "",
@@ -211,7 +857,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 84,
       "title": "",
       "img": "",
       "review_count": "",
@@ -221,7 +867,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 85,
       "title": "",
       "img": "",
       "review_count": "",
@@ -231,7 +877,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 86,
       "title": "",
       "img": "",
       "review_count": "",
@@ -241,7 +887,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 87,
       "title": "",
       "img": "",
       "review_count": "",
@@ -251,7 +897,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 88,
       "title": "",
       "img": "",
       "review_count": "",
@@ -261,7 +907,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 89,
       "title": "",
       "img": "",
       "review_count": "",
@@ -271,7 +917,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 90,
       "title": "",
       "img": "",
       "review_count": "",
@@ -281,7 +927,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 91,
       "title": "",
       "img": "",
       "review_count": "",
@@ -291,7 +937,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 92,
       "title": "",
       "img": "",
       "review_count": "",
@@ -301,7 +947,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 93,
       "title": "",
       "img": "",
       "review_count": "",
@@ -311,7 +957,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 94,
       "title": "",
       "img": "",
       "review_count": "",
@@ -321,7 +967,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 95,
       "title": "",
       "img": "",
       "review_count": "",
@@ -331,7 +977,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 96,
       "title": "",
       "img": "",
       "review_count": "",
@@ -341,7 +987,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 97,
       "title": "",
       "img": "",
       "review_count": "",
@@ -351,7 +997,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 98,
       "title": "",
       "img": "",
       "review_count": "",
@@ -361,7 +1007,7 @@
       "off": ""
     },
     {
-      "id": 2,
+      "id": 99,
       "title": "",
       "img": "",
       "review_count": "",
@@ -371,177 +1017,7 @@
       "off": ""
     },
     {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
-      "title": "",
-      "img": "",
-      "review_count": "",
-      "review_star": "",
-      "regular_price": "",
-      "price": "",
-      "off": ""
-    },
-    {
-      "id": 2,
+      "id": 100,
       "title": "",
       "img": "",
       "review_count": "",

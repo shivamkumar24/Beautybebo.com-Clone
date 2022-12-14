@@ -2,7 +2,6 @@ import {
   Box,
   Flex,
   HStack,
-  Link,
   IconButton,
   useDisclosure,
   useColorModeValue,
@@ -21,7 +20,7 @@ const Links = [
   },
   {
     to: "/hair",
-    title: "Title",
+    title: "Hair",
   },
   {
     to: "/personalcare",
@@ -46,20 +45,6 @@ const Links = [
   //   "Perfume",
   //   "Ayurved",
 ];
-
-const children = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    _hover={{
-      fontWeight: "bold",
-    }}
-    href={"#"}
-  >
-    {children}
-  </Link>
-);
 
 export default function Simple() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -131,7 +116,7 @@ export default function Simple() {
               Login
             </NavLink>
             <NavLink
-              to="register"
+              to="/register"
               style={{
                 padding: "5px",
                 margin: "2px",
@@ -144,6 +129,21 @@ export default function Simple() {
               }}
             >
               Register
+            </NavLink>
+            <NavLink
+              to="/cart"
+              style={{
+                padding: "5px",
+                margin: "2px",
+                textDecoration: "none",
+                fontSize: "15px",
+                fontWeight: "bold",
+                border: "1px solid grey",
+                borderRadius: "7px",
+                backgroundColor: "white",
+              }}
+            >
+              MyCart
             </NavLink>
           </Flex>
         </Flex>
