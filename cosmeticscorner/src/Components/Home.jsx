@@ -49,8 +49,11 @@ const Home = () => {
           return (
             <CardProduct
               key={el.id}
+              id={el.id}
               img={el.img}
               price={el.price}
+              reviewStar={el.review_star}
+              reviewCount={el.review_count}
               title={el.title}
             />
           );
