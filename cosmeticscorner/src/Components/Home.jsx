@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { getHomePageData } from "./api";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import CardProduct from "./CardProduct";
 
 const Home = () => {
-  // const cards = [
-  //   "https://www.beautybebo.com/pub/media/ads/home-slider/Mamaearth_banner_1-min.jpg",
-  //   "https://www.beautybebo.com/pub/media/ads/home-slider/Slider_banner_1-min.jpg",
-  //   "https://www.beautybebo.com/pub/media/ads/home-slider/Ponds_Forent_Banner_6-min.jpg",
-  // ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    getHomePageData()
+      .then((res) => {
+        console.log(res.data);
+        setData(res.data);
+      })
+      .catch((err) => console.log("Error: ", err));
+  }, []);
+
   return (
     <div>
       {/* ---------Navbar-------- */}
@@ -28,8 +36,28 @@ const Home = () => {
       </div>
 
       {/* --------- Products -------- */}
-      <div>
-        <h1>Products</h1>
+      <div
+        style={{
+          width: "90%",
+          margin: "auto",
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gap: "4",
+        }}
+      >
+        {data.map((el) => {
+          return (
+            <CardProduct
+              key={el.id}
+              id={el.id}
+              img={el.img}
+              price={el.price}
+              reviewStar={el.review_star}
+              reviewCount={el.review_count}
+              title={el.title}
+            />
+          );
+        })}
       </div>
 
       {/* --------- Banner2 ------- */}

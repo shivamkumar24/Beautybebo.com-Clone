@@ -80,6 +80,7 @@ export default function Simple() {
                 fontWeight: "bold",
               }}
             >
+              {/* <Image src="../logo.png" alt="CosmeticsCorner" /> */}
               CosmeticsCorner
             </Box>
             <HStack
