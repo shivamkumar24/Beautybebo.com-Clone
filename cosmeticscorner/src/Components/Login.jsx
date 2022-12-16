@@ -1,9 +1,42 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Input, Button, FormControl, FormLabel } from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { getUserData } from "./api";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [data, setData] = useState([]);
+  const navigate = useNavigate();
+  useEffect(() => {
+    getUserData().then((res) => {
+      console.log(res.data);
+      setData(res.data);
+    });
+  }, []);
+
+  const checkUser = (e) => {
+    e.preventDefault();
+    let flag = false;
+    data.map((el) => {
+      if (el.email === email && el.password === password) {
+        flag = true;
+      }
+    });
+
+    if (flag) {
+      alert("Login Successfully");
+      navigate("/");
+    } else {
+      alert("Login Failed");
+    }
+
+    setEmail("");
+    setPassword("");
+  };
+
   return (
     <div>
       {/* ---------- Navbar ---------- */}
@@ -25,12 +58,27 @@ const Login = () => {
         <hr />
 
         <FormLabel marginTop="25px">Email: </FormLabel>
-        <Input type="email" style={{ margin: "10px 0px" }} />
+        <Input
+          onChange={(e) => setEmail(e.target.value)}
+          value={email}
+          type="email"
+          placeholder="Email"
+          style={{ margin: "10px 0px" }}
+        />
 
         <FormLabel>Password:</FormLabel>
-        <Input type="password" style={{ margin: "10px 0px" }} />
+        <Input
+          onChange={(e) => setPassword(e.target.value)}
+          value={password}
+          type="password"
+          placeholder="Password"
+          style={{ margin: "10px 0px" }}
+        />
 
-        <Button style={{ border: "1px solid black", backgroundColor: "white" }}>
+        <Button
+          onClick={checkUser}
+          style={{ border: "1px solid black", backgroundColor: "white" }}
+        >
           Login
         </Button>
       </FormControl>

@@ -38,6 +38,7 @@ const Perfume = () => {
               id={el.id}
               img={el.img}
               price={el.price}
+              regularPrice={el.regular_price}
               reviewStar={el.review_star}
               reviewCount={el.review_count}
               title={el.title}

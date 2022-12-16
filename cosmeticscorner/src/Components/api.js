@@ -1,5 +1,24 @@
 import axios from "axios";
 
+export const postUserData = (name, phone, email, password) => {
+  return axios
+    .post(`http://localhost:3000/users`, {
+      id: Math.floor(Math.random() * 1000),
+      name: name,
+      phone: phone,
+      email: email,
+      password: password,
+    })
+    .then((res) => {
+      alert("Account Created Successfully");
+    })
+    .catch((err) => alert("Account Creation Failed"));
+};
+
+export const getUserData = () => {
+  return axios.get(`http://localhost:3000/users`);
+};
+
 export const getHomePageData = (params = {}) => {
   return axios.get(
     `http://localhost:3000/home`
