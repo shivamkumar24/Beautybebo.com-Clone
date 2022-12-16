@@ -6,9 +6,15 @@
       "phone": "9355228666",
       "email": "shivamkumg@gmail.com",
       "password": "12345"
+    },
+    {
+      "id": 21,
+      "name": "Raj",
+      "phone": "4343456",
+      "email": "raj@gmail.com",
+      "password": "12345"
     }
   ],
-
   "home": [
     {
       "id": 1,
@@ -281,7 +287,6 @@
       "off": "10%"
     }
   ],
-
   "skin": [
     {
       "id": 29,
@@ -674,7 +679,6 @@
       "off": "10%"
     }
   ],
-
   "hair": [
     {
       "id": 67,
@@ -1007,7 +1011,6 @@
       "off": "0%"
     }
   ],
-
   "personalcare": [
     {
       "id": 100,
@@ -1179,7 +1182,6 @@
       "price": "449.00",
       "off": "10%"
     },
-
     {
       "id": 117,
       "title": "NIVEA Men Body Wash, Active Clean With Active Charcoal, Shower Gel For Body, Face & Hair",
@@ -1311,7 +1313,6 @@
       "off": "0%"
     }
   ],
-
   "perfume": [
     {
       "id": 130,
@@ -1544,7 +1545,6 @@
       "off": "10%"
     }
   ],
-
   "mombaby": [
     {
       "id": 153,
@@ -1727,7 +1727,6 @@
       "off": "13%"
     }
   ],
-
   "ayurved": [
     {
       "id": 171,

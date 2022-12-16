@@ -46,7 +46,7 @@ const Links = [
   //   "Ayurved",
 ];
 
-export default function Simple() {
+export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
@@ -56,7 +56,7 @@ export default function Simple() {
         alt="navbar_banner"
         style={{ width: "100%" }}
       />
-      <Box bg={useColorModeValue("pink.100", "gray.600")} px={4}>
+      <Box bg={useColorModeValue("pink.400", "gray.600")} px={4}>
         <Flex
           h={12}
           margin="auto"

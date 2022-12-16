@@ -5,6 +5,8 @@ import {
   Badge,
   useColorModeValue,
   HStack,
+  Stack,
+  Text,
 } from "@chakra-ui/react";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
 
@@ -38,7 +40,15 @@ function Rating({ rating, numReviews }) {
   );
 }
 
-function CardProduct({ id, img, price, title, reviewStar, reviewCount }) {
+function CardProduct({
+  id,
+  img,
+  regularPrice,
+  price,
+  title,
+  reviewStar,
+  reviewCount,
+}) {
   return (
     <Flex p={3} w="full" alignItems="center" justifyContent="center">
       <Box
@@ -77,16 +87,14 @@ function CardProduct({ id, img, price, title, reviewStar, reviewCount }) {
 
           <Flex justifyContent="space-around">
             <Rating rating={reviewStar} numReviews={reviewCount} />
-            <Box
-              fontSize="2xl"
-              fontWeight="bold"
-              color={useColorModeValue("gray.800", "white")}
-            >
-              <Box as="span" color={"gray.600"} fontSize="lg">
-                ₹
-              </Box>
-              {price}
-            </Box>
+            <Stack direction={"row"} align={"center"}>
+              <Text textDecoration={"line-through"} color={"gray.600"}>
+                ₹{regularPrice}
+              </Text>
+              <Text fontWeight={800} fontSize={"xl"}>
+                ₹{price}
+              </Text>
+            </Stack>
           </Flex>
         </Box>
       </Box>
