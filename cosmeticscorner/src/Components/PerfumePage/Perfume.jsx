@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import CardProduct from "../CardProduct";
 import { getPerfumePageData } from "../api";
+import { Link as RouterLink } from "react-router-dom";
 
 const Perfume = () => {
   const [data, setData] = useState([]);
@@ -33,16 +34,18 @@ const Perfume = () => {
       >
         {data.map((el) => {
           return (
-            <CardProduct
-              key={el.id}
-              id={el.id}
-              img={el.img}
-              price={el.price}
-              regularPrice={el.regular_price}
-              reviewStar={el.review_star}
-              reviewCount={el.review_count}
-              title={el.title}
-            />
+            <RouterLink to={`/perfume/${el.id}`}>
+              <CardProduct
+                key={el.id}
+                id={el.id}
+                img={el.img}
+                price={el.price}
+                regularPrice={el.regular_price}
+                reviewStar={el.review_star}
+                reviewCount={el.review_count}
+                title={el.title}
+              />
+            </RouterLink>
           );
         })}
       </div>

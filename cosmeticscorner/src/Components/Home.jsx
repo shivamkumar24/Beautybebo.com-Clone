@@ -3,6 +3,7 @@ import { getHomePageData } from "./api";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import CardProduct from "./CardProduct";
+import { Link as RouterLink } from "react-router-dom";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -47,16 +48,18 @@ const Home = () => {
       >
         {data.map((el) => {
           return (
-            <CardProduct
-              key={el.id}
-              id={el.id}
-              img={el.img}
-              price={el.price}
-              regularPrice={el.regular_price}
-              reviewStar={el.review_star}
-              reviewCount={el.review_count}
-              title={el.title}
-            />
+            <RouterLink to={`/home/${el.id}`}>
+              <CardProduct
+                key={el.id}
+                id={el.id}
+                img={el.img}
+                price={el.price}
+                regularPrice={el.regular_price}
+                reviewStar={el.review_star}
+                reviewCount={el.review_count}
+                title={el.title}
+              />
+            </RouterLink>
           );
         })}
       </div>
