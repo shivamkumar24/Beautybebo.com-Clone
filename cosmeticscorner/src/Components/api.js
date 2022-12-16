@@ -41,6 +41,10 @@ export const getOrderData = () => {
   return axios.get(`http://localhost:3000/orders`);
 };
 
+export const deleteOrderData = (id) => {
+  return axios.delete(`http://localhost:3000/orders/${id}`);
+};
+
 // -------------- Home Page Related Request -------------
 export const getHomePageData = (params = {}) => {
   return axios.get(

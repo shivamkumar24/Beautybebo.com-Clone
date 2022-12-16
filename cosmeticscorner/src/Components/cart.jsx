@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { getOrderData } from "./api";
+import { deleteOrderData, getOrderData } from "./api";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
@@ -9,13 +9,25 @@ const Cart = () => {
   let amount = 0;
 
   useEffect(() => {
+    handleGetData();
+  });
+
+  const handleGetData = () => {
     getOrderData()
       .then((res) => {
         console.log(res.data);
         setData(res.data);
       })
       .catch((err) => console.log("Error: ", err));
-  }, []);
+  };
+
+  const deleteItems = (id) => {
+    deleteOrderData(id)
+      .then((res) => {
+        handleGetData();
+      })
+      .catch((error) => console.log(error));
+  };
 
   if (data.length === 0) {
     return (
@@ -45,6 +57,7 @@ const Cart = () => {
       <div>
         {/* ----------- Navbar ---------- */}
         <Navbar />
+
         {/* ----------- Order Products ------- */}
         <div
           style={{
@@ -117,6 +130,7 @@ const Cart = () => {
                     borderRadius: "12px",
                     fontWeight: "bold",
                   }}
+                  onClick={() => deleteItems(el.id)}
                 >
                   Delete
                 </button>
@@ -124,7 +138,8 @@ const Cart = () => {
             );
           })}
         </div>
-        ;{/* ----------- Footer ---------- */}
+
+        {/* ----------- Footer ---------- */}
         <Footer />
       </div>
     );

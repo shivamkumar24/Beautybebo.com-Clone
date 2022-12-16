@@ -17,6 +17,18 @@
   ],
   "orders": [
     {
+      "id": 151,
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/3/d31.jpg",
+      "price": "257.00",
+      "title": "Denver Sporting Club Goal Perfume - 60ml"
+    },
+    {
+      "id": 105,
+      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/6/c65525avegax00000003_1.jpg",
+      "price": "1394.00",
+      "title": "VEGA VHTH 16 Beard Trimmer"
+    },
+    {
       "id": 6,
       "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001368-2.jpg",
       "price": "200.00",
@@ -27,48 +39,6 @@
       "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001776-1.jpg",
       "price": "128.00",
       "title": "Himalaya Herbals Himalaya Men Pimple Clear Neem Face Wash"
-    },
-    {
-      "id": 27,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/9/f/9f1b98c8904352000683_1.jpg",
-      "price": "299.00",
-      "title": "Green Apple Fresh Purifying shampoo"
-    },
-    {
-      "id": 29,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/b/3b741delotaa00000044_nv1.jpg",
-      "price": "646.00",
-      "title": "Lotus Professional Retemin Plant Retinol & Vitamin C Brightening Boost Night Cream"
-    },
-    {
-      "id": 115,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/a/b/ab23c3a4005808628087_1.jpg",
-      "price": "449.00",
-      "title": "NIVEA Men Body Wash- Pure Impact With Purifying Minerals Particles- Shower Gel For Body- Face & Hair"
-    },
-    {
-      "id": 151,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/3/d31.jpg",
-      "price": "257.00",
-      "title": "Denver Sporting Club Goal Perfume - 60ml"
-    },
-    {
-      "id": 99,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/e/e/ee4d0fb8904317300100_1.jpg",
-      "price": "450.00",
-      "title": "Biotique Bio Walnut Bark Volumizing Shampoo For Fine & Thinning Hairs"
-    },
-    {
-      "id": 163,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/e/be172.jpg",
-      "price": "235.00",
-      "title": "Johnson's Baby Powder"
-    },
-    {
-      "id": 194,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/n/e/neem_face_wash100.jpg",
-      "price": "130.00",
-      "title": "Himalaya Herbals Purifying Neem Face Wash"
     }
   ],
   "home": [
