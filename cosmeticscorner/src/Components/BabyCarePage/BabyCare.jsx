@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { getMomBabyPageData } from "../api";
 import CardProduct from "../CardProduct";
+import { Link as RouterLink } from "react-router-dom";
 
 const BabyCare = () => {
   const [data, setData] = useState([]);
@@ -47,16 +48,18 @@ const BabyCare = () => {
       >
         {data.map((el) => {
           return (
-            <CardProduct
-              key={el.id}
-              id={el.id}
-              img={el.img}
-              price={el.price}
-              regularPrice={el.regular_price}
-              reviewStar={el.review_star}
-              reviewCount={el.review_count}
-              title={el.title}
-            />
+            <RouterLink to={`/babycare/${el.id}`}>
+              <CardProduct
+                key={el.id}
+                id={el.id}
+                img={el.img}
+                price={el.price}
+                regularPrice={el.regular_price}
+                reviewStar={el.review_star}
+                reviewCount={el.review_count}
+                title={el.title}
+              />
+            </RouterLink>
           );
         })}
       </div>
