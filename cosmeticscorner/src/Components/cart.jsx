@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { deleteOrderData, getOrderData } from "./api";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Cart = () => {
   const [data, setData] = useState([]);
@@ -92,6 +92,18 @@ const Cart = () => {
           <p style={{ fontWeight: "bold", fontSize: "22px" }}>
             Total Amount: {amount}
           </p>
+          <button
+            style={{
+              padding: "7px 10px",
+              border: "1px solid black",
+              borderRadius: "12px",
+              fontWeight: "bold",
+              backgroundColor: "black",
+              color: "white",
+            }}
+          >
+            <NavLink to="/paymentform">Shopping Continue</NavLink>
+          </button>
         </div>
         <div
           style={{

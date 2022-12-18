@@ -4,6 +4,7 @@ import Home from "../Components/Home";
 import Login from "../Components/Login";
 import Register from "../Components/Register";
 import Cart from "../Components/cart";
+import PaymentForm from "../Components/PaymentForm";
 import Skin from "../Components/SkinPage/Skin";
 import PersonalCare from "../Components/PersonalCarePage/PersonalCare";
 import Perfume from "../Components/PerfumePage/Perfume";
@@ -17,6 +18,7 @@ import PerfumeProductDetails from "../Components/PerfumePage/PerfumeProductDetai
 import HairProductsDetails from "../Components/HairPage/HairProductsDetails";
 import BabyCareProductDetails from "../Components/BabyCarePage/BabyCareProductDetails";
 import AyurvedProductDetails from "../Components/AyurvedPage/AyurvedProductDetails";
+import Success from "../Components/Success";
 
 const AllRoutes = () => {
   return (
@@ -27,6 +29,8 @@ const AllRoutes = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/success" element={<Success />} />
+        <Route path="/paymentform" element={<PaymentForm />} />
         <Route path="/skin" element={<Skin />} />
         <Route path="/skin/:id" element={<SkinProductDetails />} />
         <Route path="/personalcare" element={<PersonalCare />} />

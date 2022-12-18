@@ -17,28 +17,10 @@
   ],
   "orders": [
     {
-      "id": 151,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/3/d31.jpg",
-      "price": "257.00",
-      "title": "Denver Sporting Club Goal Perfume - 60ml"
-    },
-    {
-      "id": 105,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/6/c65525avegax00000003_1.jpg",
-      "price": "1394.00",
-      "title": "VEGA VHTH 16 Beard Trimmer"
-    },
-    {
       "id": 6,
       "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001368-2.jpg",
       "price": "200.00",
       "title": "Head & Shoulders Anti-Dandruff Anti Hair Fall Shampoo - 340ml"
-    },
-    {
-      "id": 10,
-      "img": "https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/b/b/bbj0001776-1.jpg",
-      "price": "128.00",
-      "title": "Himalaya Herbals Himalaya Men Pimple Clear Neem Face Wash"
     }
   ],
   "home": [

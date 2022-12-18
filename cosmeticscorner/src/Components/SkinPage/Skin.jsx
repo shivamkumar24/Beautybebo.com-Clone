@@ -4,17 +4,24 @@ import Footer from "../Footer";
 import { getSkinPageData } from "../api";
 import CardProduct from "../CardProduct";
 import { Link as RouterLink } from "react-router-dom";
+// import { Select } from "@chakra-ui/react";
 
 const Skin = () => {
   const [data, setData] = useState([]);
+  // const [orderData, setOrderData] = useState("asc");
 
-  useEffect(() => {
+  // console.log(orderData);
+  const handleGetData = () => {
     getSkinPageData()
       .then((res) => {
         console.log(res.data);
         setData(res.data);
       })
       .catch((err) => console.log("Error: ", err));
+  };
+
+  useEffect(() => {
+    handleGetData();
   }, []);
 
   return (
@@ -35,6 +42,29 @@ const Skin = () => {
           style={{ width: "75%", marginBottom: "5px", height: "400px" }}
         />
       </div>
+
+      {/* ----------- Select Sorting By Price ------- */}
+      {/* <div
+        style={{
+          width: "250px",
+          display: "flex",
+          marginLeft: "10%",
+          justifyContent: "left",
+        }}
+      >
+        <Select
+          placeholder="Sort By Price"
+          style={{
+            fontWeight: "bold",
+            border: "1px solid black",
+            cursor: "pointer",
+          }}
+          onChange={(e) => setOrderData(e.target.value)}
+        >
+          <option value="asc">Low - High</option>
+          <option value="desc">High - Low</option>
+        </Select>
+      </div> */}
 
       {/* ----------- Products ------- */}
       <div
