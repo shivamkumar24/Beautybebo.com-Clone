@@ -90,7 +90,7 @@ const Cart = () => {
             amount = amount + Number(el.price);
           })}
           <p style={{ fontWeight: "bold", fontSize: "22px" }}>
-            Total Amount: {amount}
+            Total Amount: ₹{amount}
           </p>
           <button
             style={{
