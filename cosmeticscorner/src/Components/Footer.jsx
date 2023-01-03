@@ -1,3 +1,4 @@
+import { Grid } from "@chakra-ui/react";
 import React from "react";
 
 const Footer = () => {
@@ -10,12 +11,18 @@ const Footer = () => {
         marginTop: "15px",
       }}
     >
-      <div
+      {/* <div
         style={{
           display: "flex",
           justifyContent: "space-around",
           marginBottom: "15px",
         }}
+      > */}
+      <Grid
+        width="90%"
+        margin="auto"
+        templateColumns={{ base: "repeat(1,auto)", md: "repeat(4,1fr)" }}
+        gap={6}
       >
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h1 style={{ color: "pink" }}>CONTACT INFO</h1>
@@ -45,7 +52,8 @@ const Footer = () => {
           <p style={{ color: "white" }}>Personal Care</p>
           <p style={{ color: "white" }}>Ayurved</p>
         </div>
-      </div>
+      </Grid>
+      {/* </div> */}
       <h2 style={{ textAlign: "center", color: "white" }}>
         © 2020 All Rights Reserved.
       </h2>
