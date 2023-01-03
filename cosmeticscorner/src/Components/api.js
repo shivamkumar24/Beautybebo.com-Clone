@@ -3,7 +3,7 @@ import axios from "axios";
 // ------------- User Login and Signup Request ----------
 export const postUserData = (name, phone, email, password) => {
   return axios
-    .post(`http://localhost:3000/users`, {
+    .post(`https://mock-server-app-n23r.onrender.com/users`, {
       id: Math.floor(Math.random() * 1000),
       name: name,
       phone: phone,
@@ -17,13 +17,13 @@ export const postUserData = (name, phone, email, password) => {
 };
 
 export const getUserData = () => {
-  return axios.get(`http://localhost:3000/users`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/users`);
 };
 
 // --------------- Placed Order and Get Order Request --------------
 export const postOrderData = (data) => {
   return axios
-    .post(`http://localhost:3000/orders`, {
+    .post(`https://mock-server-app-n23r.onrender.com/orders`, {
       id: data.id,
       img: data.img,
       price: data.price,
@@ -38,17 +38,17 @@ export const postOrderData = (data) => {
 };
 
 export const getOrderData = () => {
-  return axios.get(`http://localhost:3000/orders`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/orders`);
 };
 
 export const deleteOrderData = (id) => {
-  return axios.delete(`http://localhost:3000/orders/${id}`);
+  return axios.delete(`https://mock-server-app-n23r.onrender.com/orders/${id}`);
 };
 
 // -------------- Home Page Related Request -------------
 export const getHomePageData = (params = {}) => {
   return axios.get(
-    `http://localhost:3000/home`
+    `https://mock-server-app-n23r.onrender.com/home`
     //    {
     //     params: {
     //   _page: params.page,
@@ -61,13 +61,13 @@ export const getHomePageData = (params = {}) => {
 };
 
 export const getHomeProductDetails = (id) => {
-  return axios.get(`http://localhost:3000/home/${id}`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/home/${id}`);
 };
 
 // --------------- Skin Page Related Request -------------
 export const getSkinPageData = (params = {}) => {
   return axios.get(
-    `http://localhost:3000/skin`
+    `https://mock-server-app-n23r.onrender.com/skin`
     //    {
     //     params: {
     //   _page: params.page,
@@ -80,13 +80,13 @@ export const getSkinPageData = (params = {}) => {
 };
 
 export const getSkinProductDetails = (id) => {
-  return axios.get(`http://localhost:3000/skin/${id}`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/skin/${id}`);
 };
 
 // ------------- Hair Page Related Request --------------
 export const getHairPageData = (params = {}) => {
   return axios.get(
-    `http://localhost:3000/hair`
+    `https://mock-server-app-n23r.onrender.com/hair`
     //    {
     //     params: {
     //   _page: params.page,
@@ -99,13 +99,13 @@ export const getHairPageData = (params = {}) => {
 };
 
 export const getHairProductDetails = (id) => {
-  return axios.get(`http://localhost:3000/hair/${id}`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/hair/${id}`);
 };
 
 // --------------- PersonalCare Page Related Request -------------
 export const getPersonalCarePageData = (params = {}) => {
   return axios.get(
-    `http://localhost:3000/personalcare`
+    `https://mock-server-app-n23r.onrender.com/personalcare`
     //    {
     //     params: {
     //   _page: params.page,
@@ -118,13 +118,15 @@ export const getPersonalCarePageData = (params = {}) => {
 };
 
 export const getPersonalCareProductDetails = (id) => {
-  return axios.get(`http://localhost:3000/personalcare/${id}`);
+  return axios.get(
+    `https://mock-server-app-n23r.onrender.com/personalcare/${id}`
+  );
 };
 
 // -------------- Mom & Baby Page Related Request --------------
 export const getMomBabyPageData = (params = {}) => {
   return axios.get(
-    `http://localhost:3000/babycare`
+    `https://mock-server-app-n23r.onrender.com/babycare`
     //    {
     //     params: {
     //   _page: params.page,
@@ -137,13 +139,13 @@ export const getMomBabyPageData = (params = {}) => {
 };
 
 export const getMomBabyProductDetails = (id) => {
-  return axios.get(`http://localhost:3000/babycare/${id}`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/babycare/${id}`);
 };
 
 // -------------- Perfume Page Related Request ------------
 export const getPerfumePageData = (params = {}) => {
   return axios.get(
-    `http://localhost:3000/perfume`
+    `https://mock-server-app-n23r.onrender.com/perfume`
     //    {
     //     params: {
     //   _page: params.page,
@@ -156,13 +158,13 @@ export const getPerfumePageData = (params = {}) => {
 };
 
 export const getPerfumeProductDetails = (id) => {
-  return axios.get(`http://localhost:3000/perfume/${id}`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/perfume/${id}`);
 };
 
 // -------------- Ayurved Page Related Request ------------------
 export const getAyurvedPageData = (params = {}) => {
   return axios.get(
-    `http://localhost:3000/ayurved`
+    `https://mock-server-app-n23r.onrender.com/ayurved`
     //    {
     //     params: {
     //   _page: params.page,
@@ -175,5 +177,5 @@ export const getAyurvedPageData = (params = {}) => {
 };
 
 export const getAyurvedProductDetails = (id) => {
-  return axios.get(`http://localhost:3000/ayurved/${id}`);
+  return axios.get(`https://mock-server-app-n23r.onrender.com/ayurved/${id}`);
 };
