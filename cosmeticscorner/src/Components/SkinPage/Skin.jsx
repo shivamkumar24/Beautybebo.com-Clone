@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import { getSkinPageData } from "../api";
 import CardProduct from "../CardProduct";
 import { Link as RouterLink } from "react-router-dom";
+import { Grid } from "@chakra-ui/react";
 // import { Select } from "@chakra-ui/react";
 
 const Skin = () => {
@@ -67,7 +68,7 @@ const Skin = () => {
       </div> */}
 
       {/* ----------- Products ------- */}
-      <div
+      {/* <div
         style={{
           width: "90%",
           margin: "auto",
@@ -75,6 +76,12 @@ const Skin = () => {
           gridTemplateColumns: "repeat(3, 1fr)",
           gap: "4",
         }}
+      > */}
+      <Grid
+        width="90%"
+        margin="auto"
+        templateColumns={{ base: "repeat(1,auto)", md: "repeat(3, 1fr)" }}
+        gap={6}
       >
         {data.map((el) => {
           return (
@@ -92,7 +99,8 @@ const Skin = () => {
             </RouterLink>
           );
         })}
-      </div>
+      </Grid>
+      {/* </div> */}
 
       {/* ----------- Footer ---------- */}
       <Footer />

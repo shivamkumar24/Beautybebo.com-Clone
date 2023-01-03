@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import { getHairPageData } from "../api";
 import CardProduct from "../CardProduct";
 import { Link as RouterLink } from "react-router-dom";
+import { Grid } from "@chakra-ui/react";
 
 const Hair = () => {
   const [data, setData] = useState([]);
@@ -37,7 +38,7 @@ const Hair = () => {
       </div>
 
       {/* ----------- Products ------- */}
-      <div
+      {/* <div
         style={{
           width: "90%",
           margin: "auto",
@@ -45,6 +46,12 @@ const Hair = () => {
           gridTemplateColumns: "repeat(3, 1fr)",
           gap: "4",
         }}
+      > */}
+      <Grid
+        width="90%"
+        margin="auto"
+        templateColumns={{ base: "repeat(1,auto)", md: "repeat(3, 1fr)" }}
+        gap={6}
       >
         {data.map((el) => {
           return (
@@ -62,7 +69,8 @@ const Hair = () => {
             </RouterLink>
           );
         })}
-      </div>
+      </Grid>
+      {/* </div> */}
 
       {/* ----------- Footer ---------- */}
       <Footer />

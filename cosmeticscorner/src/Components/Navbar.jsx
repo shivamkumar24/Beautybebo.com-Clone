@@ -5,9 +5,11 @@ import {
   IconButton,
   useDisclosure,
   useColorModeValue,
+  Link,
+  Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import { NavLink } from "react-router-dom";
+import { NavLink as Join } from "react-router-dom";
 
 const Links = [
   {
@@ -38,13 +40,13 @@ const Links = [
     to: "/ayurved",
     title: "Ayurved",
   },
-  //   "Skin",
-  //   "Hair",
-  //   "Personal Care",
-  //   "Mom & Baby Care",
-  //   "Perfume",
-  //   "Ayurved",
 ];
+
+// const NavLink = ({ children }) => (
+//   <Link px={2} py={1} rounded={"md"} href={"#"}>
+//     {children}
+//   </Link>
+// );
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -89,19 +91,15 @@ export default function Navbar() {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((el) => (
-                <NavLink
-                  key={el.title}
-                  to={el.to}
-                  style={{ fontWeight: "bold" }}
-                >
+                <Join key={el.title} to={el.to} style={{ fontWeight: "bold" }}>
                   {el.title}
-                </NavLink>
+                </Join>
               ))}
             </HStack>
           </HStack>
 
           <Flex alignItems={"center"}>
-            <NavLink
+            <Join
               to="/login"
               style={{
                 padding: "5px",
@@ -115,8 +113,8 @@ export default function Navbar() {
               }}
             >
               Login
-            </NavLink>
-            <NavLink
+            </Join>
+            <Join
               to="/register"
               style={{
                 padding: "5px",
@@ -130,8 +128,8 @@ export default function Navbar() {
               }}
             >
               Register
-            </NavLink>
-            <NavLink
+            </Join>
+            <Join
               to="/cart"
               style={{
                 padding: "5px",
@@ -145,9 +143,19 @@ export default function Navbar() {
               }}
             >
               MyCart
-            </NavLink>
+            </Join>
           </Flex>
         </Flex>
+
+        {/* {isOpen ? (
+          <Box pb={4} display={{ md: "none" }}>
+            <Stack as={"nav"} spacing={4}>
+              {Links.map((link) => (
+                <NavLink key={link}>{link}</NavLink>
+              ))}
+            </Stack>
+          </Box>
+        ) : null} */}
       </Box>
     </div>
   );
