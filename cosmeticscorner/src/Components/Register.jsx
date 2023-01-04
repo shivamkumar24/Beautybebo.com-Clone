@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Input, Button, FormControl, FormLabel } from "@chakra-ui/react";
+import { Input, Button, FormControl, FormLabel, Text } from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { postUserData } from "./api";
@@ -42,20 +42,18 @@ const Register = () => {
     <div>
       {/* ---------- Navbar --------- */}
       <Navbar />
-      <p
-        style={{
-          textAlign: "center",
-          fontWeight: "bold",
-          marginTop: "12px",
-          fontSize: "22px",
-        }}
+      <Text
+        textAlign="center"
+        fontWeight="bold"
+        marginTop="12px"
+        fontSize={{ base: "18px", md: "22px" }}
       >
         CREATE NEW CUSTOMER ACCOUNT
-      </p>
+      </Text>
 
       {/* ------------ Form --------- */}
       <FormControl
-        width="40%"
+        width={{ base: "80%", md: "50%" }}
         margin="auto"
         marginTop="3%"
         marginBottom="3%"

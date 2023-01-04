@@ -44,7 +44,7 @@ const Login = () => {
 
       {/* ----------- Form --------- */}
       <FormControl
-        width="40%"
+        width={{ base: "80%", md: "50%" }}
         margin="auto"
         marginTop="3%"
         marginBottom="3%"

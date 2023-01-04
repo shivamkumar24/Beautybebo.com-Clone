@@ -5,11 +5,10 @@ import {
   IconButton,
   useDisclosure,
   useColorModeValue,
-  Link,
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import { NavLink as Join } from "react-router-dom";
+import { NavLink as RouterNavLink } from "react-router-dom";
 
 const Links = [
   {
@@ -42,12 +41,6 @@ const Links = [
   },
 ];
 
-// const NavLink = ({ children }) => (
-//   <Link px={2} py={1} rounded={"md"} href={"#"}>
-//     {children}
-//   </Link>
-// );
-
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -62,12 +55,12 @@ export default function Navbar() {
         <Flex
           h={12}
           margin="auto"
-          width="95%"
+          width={{ base: "100%", md: "95%" }}
           alignItems={"center"}
           justifyContent={"space-between"}
         >
           <IconButton
-            size={"md"}
+            size={"sm"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
             aria-label={"Open Menu"}
             display={{ md: "none" }}
@@ -75,12 +68,10 @@ export default function Navbar() {
           />
           <HStack spacing={8} alignItems={"center"}>
             <Box
-              style={{
-                margin: "12px",
-                textDecoration: "none",
-                fontSize: "25px",
-                fontWeight: "bold",
-              }}
+              margin={{ base: "5px", md: "15px" }}
+              fontSize={{ base: "18px", md: "25px" }}
+              textDecoration="none"
+              fontWeight="bold"
             >
               {/* <Image src="../logo.png" alt="CosmeticsCorner" /> */}
               CosmeticsCorner
@@ -91,21 +82,25 @@ export default function Navbar() {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((el) => (
-                <Join key={el.title} to={el.to} style={{ fontWeight: "bold" }}>
+                <RouterNavLink
+                  key={el.title}
+                  to={el.to}
+                  style={{ fontWeight: "bold" }}
+                >
                   {el.title}
-                </Join>
+                </RouterNavLink>
               ))}
             </HStack>
           </HStack>
 
           <Flex alignItems={"center"}>
-            <Join
+            <RouterNavLink
               to="/login"
               style={{
                 padding: "5px",
                 margin: "2px",
                 textDecoration: "none",
-                fontSize: "15px",
+                fontSize: "12px",
                 fontWeight: "bold",
                 border: "1px solid grey",
                 borderRadius: "7px",
@@ -113,14 +108,14 @@ export default function Navbar() {
               }}
             >
               Login
-            </Join>
-            <Join
+            </RouterNavLink>
+            <RouterNavLink
               to="/register"
               style={{
                 padding: "5px",
                 margin: "2px",
                 textDecoration: "none",
-                fontSize: "15px",
+                fontSize: "12px",
                 fontWeight: "bold",
                 border: "1px solid grey",
                 borderRadius: "7px",
@@ -128,14 +123,14 @@ export default function Navbar() {
               }}
             >
               Register
-            </Join>
-            <Join
+            </RouterNavLink>
+            <RouterNavLink
               to="/cart"
               style={{
                 padding: "5px",
                 margin: "2px",
                 textDecoration: "none",
-                fontSize: "15px",
+                fontSize: "12px",
                 fontWeight: "bold",
                 border: "1px solid grey",
                 borderRadius: "7px",
@@ -143,19 +138,25 @@ export default function Navbar() {
               }}
             >
               MyCart
-            </Join>
+            </RouterNavLink>
           </Flex>
         </Flex>
 
-        {/* {isOpen ? (
+        {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+              {Links.map((el) => (
+                <RouterNavLink
+                  key={el.title}
+                  to={el.to}
+                  style={{ fontWeight: "bold" }}
+                >
+                  {el.title}
+                </RouterNavLink>
               ))}
             </Stack>
           </Box>
-        ) : null} */}
+        ) : null}
       </Box>
     </div>
   );
