@@ -99,9 +99,18 @@ Beauty Bebo is India’s fastest growing online retail store for the day to day 
 This project was built using React, Chakra UI, HTML, CSS, JavaScript and Rest API. It is an e-commerce web application. it  is India’s fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.
 
 
+### Setup
+
+
+The project repository can be found in [GitHub link](https://github.com/shivamkumar24/Beautybebo.com-Clone) or just clone the project using this command.
+
+
+```
 Using HTTPS
 
 # git clone https://github.com/shivamkumar24/Beautybebo.com-Clone
+```
+ 
 
 ### Tools used on this project
 
