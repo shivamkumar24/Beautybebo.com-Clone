@@ -1,10 +1,18 @@
 import React, { useState } from "react";
-import { Input, Button, FormControl, FormLabel, Text } from "@chakra-ui/react";
+import {
+  Input,
+  Button,
+  FormControl,
+  FormLabel,
+  Text,
+  useToast,
+} from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { postUserData } from "./api";
 
 const Register = () => {
+  const toast = useToast();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -25,10 +33,18 @@ const Register = () => {
       if (Number(password) === Number(cpassword)) {
         postUserData(name, phone, email, password);
       } else {
-        alert("Password and Confirm Password not matched");
+        toast({
+          title: `Password and Confirm Password not matched`,
+          status: "error",
+          isClosable: true,
+        });
       }
     } else {
-      alert("Please fil all data ......");
+      toast({
+        title: `Please fil all data ......`,
+        status: "error",
+        isClosable: true,
+      });
     }
 
     setName("");

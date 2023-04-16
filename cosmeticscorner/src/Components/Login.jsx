@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Input, Button, FormControl, FormLabel } from "@chakra-ui/react";
+import {
+  Input,
+  Button,
+  FormControl,
+  FormLabel,
+  useToast,
+} from "@chakra-ui/react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { getUserData } from "./api";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const toast = useToast();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [data, setData] = useState([]);
@@ -27,10 +34,18 @@ const Login = () => {
     });
 
     if (flag) {
-      alert("Login Successfully");
+      toast({
+        title: `Login Successfully`,
+        status: "success",
+        isClosable: true,
+      });
       navigate("/");
     } else {
-      alert("Login Failed");
+      toast({
+        title: `Login Failed`,
+        status: "error",
+        isClosable: true,
+      });
     }
 
     setEmail("");
